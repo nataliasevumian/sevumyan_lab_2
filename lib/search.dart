@@ -74,9 +74,6 @@ class _SearchPageState extends State<SearchPage>{
                             request = value;
                           });
                         },
-                        controller: TextEditingController(
-                          text: request
-                        ),
                       )
                   ),
                   ListView.builder(
